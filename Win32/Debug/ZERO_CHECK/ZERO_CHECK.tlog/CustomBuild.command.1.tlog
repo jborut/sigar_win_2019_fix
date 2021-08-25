@@ -1,0 +1,10 @@
+^C:\USERS\BORUTJEGRISNIK\SOURCE\REPOS\SIGAR\CMAKEFILES\454B2D08B99F6302CB9A75851FC2BCD8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/BorutJegrisnik/source/repos/sigar -BC:/Users/BorutJegrisnik/source/repos/sigar --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/BorutJegrisnik/source/repos/sigar/sigar.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

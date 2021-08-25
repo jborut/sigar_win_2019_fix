@@ -1,0 +1,112 @@
+﻿  Building Custom Rule C:/Users/BorutJegrisnik/source/repos/sigar/src/CMakeLists.txt
+  wmi.cpp
+..\src\os\win32\wmi.cpp(202,9): warning C4244: 'argument': conversion from 'sigar_pid_t' to 'DWORD', possible loss of data
+..\src\os\win32\wmi.cpp(228,9): warning C4244: 'argument': conversion from 'sigar_pid_t' to 'DWORD', possible loss of data
+  peb.c
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\sigar_os.h(27,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\peb.c : message : see previous definition of 'WIN32_LEAN_AND_MEAN'
+  win32_sigar.c
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\sigar_os.h(27,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c : message : see previous definition of 'WIN32_LEAN_AND_MEAN'
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(271,35): warning C4133: '=': incompatible types - from 'PERF_DATA_BLOCK *' to 'char *'
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(284,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(305,31): warning C4101: 'inst': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(610,5): warning C4996: 'GetVersionExA': was declared deprecated
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(588,15): warning C4101: 'h': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(779,9): warning C4101: 'status': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(816,31): warning C4101: 'inst': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(885,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(955,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1008,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(981,9): warning C4101: 'status': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(981,20): warning C4101: 'j': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1063,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1043,9): warning C4101: 'status': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1043,20): warning C4101: 'j': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1131,53): warning C4244: '=': conversion from 'LONGLONG' to 'double', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1111,31): warning C4101: 'inst': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1194,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1229,29): warning C4133: 'function': incompatible types - from 'sigar_t *' to 'buffer_t *'
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1437,22): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1438,22): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1548,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(1582,55): warning C4101: 'arg': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2023,31): warning C4101: 'inst': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2096,5): warning C4244: '=': conversion from 'double' to 'sigar_uint64_t', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2110,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2093,30): warning C4101: 'counter': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2248,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2268,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2514,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2744,26): warning C4090: 'function': different 'const' qualifiers
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2786,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(2842,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(3080,9): warning C4101: 'status': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(3187,9): warning C4101: 'status': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(3406,9): warning C4101: 'status': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\win32_sigar.c(3806,5): warning C4996: 'GetVersionExA': was declared deprecated
+  sigar.c
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\sigar_os.h(27,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c : message : see previous definition of 'WIN32_LEAN_AND_MEAN'
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c(113,28): warning C4013: 'getpid' undefined; assuming extern returning int
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c(209,95): warning C4244: '=': conversion from 'double' to 'sigar_uint64_t', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c(298,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c(1977,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c(2063,10): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c(2095,16): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c(2116,10): warning C4101: 'domain': unreferenced local variable
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar.c(2300,24): warning C4013: '_getch' undefined; assuming extern returning int
+  sigar_cache.c
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_cache.c(67,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_cache.c(94,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_cache.c(134,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_cache.c(237,16): warning C4018: '<': signed/unsigned mismatch
+  sigar_fileinfo.c
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_fileinfo.c(419,43): warning C4293: '<<': shift count negative or too big, undefined behavior
+  sigar_format.c
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\sigar_os.h(27,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c : message : see previous definition of 'WIN32_LEAN_AND_MEAN'
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(611,28): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(660,40): warning C4244: '=': conversion from 'sigar_uint64_t' to 'double', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(661,39): warning C4244: '=': conversion from 'sigar_uint64_t' to 'double', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(662,40): warning C4244: '=': conversion from 'sigar_uint64_t' to 'double', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(663,40): warning C4244: '=': conversion from 'sigar_uint64_t' to 'double', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(664,40): warning C4244: '=': conversion from 'sigar_uint64_t' to 'double', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(665,37): warning C4244: '=': conversion from 'sigar_uint64_t' to 'double', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(666,52): warning C4244: '=': conversion from 'sigar_uint64_t' to 'double', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_format.c(667,46): warning C4244: '=': conversion from 'sigar_uint64_t' to 'double', possible loss of data
+  sigar_getline.c
+  sigar_ptql.c
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\sigar_os.h(27,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c : message : see previous definition of 'WIN32_LEAN_AND_MEAN'
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(378,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(384,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(390,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(396,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(402,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(408,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(420,12): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(426,12): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(540,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(775,38): warning C4013: 'getpid' undefined; assuming extern returning int
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(889,14): warning C4244: 'function': conversion from 'sigar_pid_t' to 'sigar_uint32_t', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(1077,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(1079,13): warning C4244: 'function': conversion from 'sigar_pid_t' to 'sigar_uint32_t', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(1134,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(1150,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(1777,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(1845,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(1901,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_ptql.c(1953,16): warning C4018: '<': signed/unsigned mismatch
+  sigar_signal.c
+  sigar_util.c
+C:\Users\BorutJegrisnik\source\repos\sigar\src\os\win32\sigar_os.h(27,1): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_util.c : message : see previous definition of 'WIN32_LEAN_AND_MEAN'
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_util.c(472,1): warning C4244: 'initializing': conversion from 'sigar_uint64_t' to 'unsigned long', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_util.c(473,1): warning C4244: 'initializing': conversion from 'sigar_uint64_t' to 'unsigned long', possible loss of data
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_util.c(835,18): warning C4013: 'open' undefined; assuming extern returning int
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_util.c(841,20): warning C4013: 'read' undefined; assuming extern returning int
+C:\Users\BorutJegrisnik\source\repos\sigar\src\sigar_util.c(848,10): warning C4013: 'close' undefined; assuming extern returning int
+  Generating Code...
+     Creating library C:/Users/BorutJegrisnik/source/repos/sigar/build-src/Release/sigar.lib and object C:/Users/BorutJegrisnik/source/repos/sigar/build-src/Release/sigar.exp
+  sigar.vcxproj -> C:\Users\BorutJegrisnik\source\repos\sigar\build-src\Release\sigar.dll

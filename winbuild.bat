@@ -19,7 +19,7 @@
 
 :CMAKE
 @rem make sure that /D NDEBUG isn't set as it disables all the assert()ions in the testcase
-cmake -G %GENERATOR% -DBUILD_NUMBER=%BUILD_NUMBER% -DCMAKE_INSTALL_PREFIX=%INST_PREFIX% -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING="/MD /Zi /O2 /Ob1" .
+cmake -G "Visual Studio 16 2019" -A Win32 -DBUILD_NUMBER=%BUILD_NUMBER% -DCMAKE_INSTALL_PREFIX=%INST_PREFIX% -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING="/MD /Zi /O2 /Ob1" .
 
 @IF NOT %GENERATOR%=="NMake Makefiles" (GOTO VS08BUILD)
 nmake
@@ -33,11 +33,11 @@ IF %ERRORLEVEL% NEQ 0 EXIT /B %ERRORLEVEL%
 @GOTO CLEANUP
 
 :VS08BUILD
-%VS_CMD% mysql-proxy.sln /Clean
-%VS_CMD% mysql-proxy.sln /Build Release
-%VS_CMD% mysql-proxy.sln /Build Release /project RUN_TESTS
-%VS_CMD% mysql-proxy.sln /Build Release /project PACKAGE
-%VS_CMD% mysql-proxy.sln /Build Release /project INSTALL
+msbuild mysql-proxy.sln /Clean
+msbuild mysql-proxy.sln /Build Release
+msbuild mysql-proxy.sln /Build Release /project RUN_TESTS
+msbuild mysql-proxy.sln /Build Release /project PACKAGE
+msbuild mysql-proxy.sln /Build Release /project INSTALL
 
 @GOTO CLEANUP
 
